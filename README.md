@@ -40,7 +40,7 @@ $ ./cpacman -Syu
 ```
 
 After installation, a list of user installed packages will be saved to `$HOME/.config/packages.`
-
+<br>
 
 ## WATCHF
 
@@ -52,4 +52,4 @@ After installation, a list of user installed packages will be saved to `$HOME/.c
 $ ./watchf "./*.go" debug_run
 ```
 
-This command watching all `.go` files in the current directory, and then executes `debug_run` when any files are changed
+This command watches all `.go` files in the current directory, and then executes the `debug_run` script when any files are changed
