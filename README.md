@@ -46,6 +46,10 @@ After installation, a list of user installed packages will be saved to `$HOME/.c
 
 ### Watch specified files for changes and then run a specific script on change
 
+```sh
+$ ./watchf <files to watch> <script to execute>
+```
+
 ### Example
 
 ```sh
